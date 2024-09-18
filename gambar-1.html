@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gambar1</title>
+    <style>
+        .container {
+            width: 400px;
+            margin-left: 400px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 2px 2px rgb(237, 240, 237);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .span {
+            font-size: 14px;
+            color: grey;
+            margin-bottom: 5px;
+            padding-left: 5px;
+        }
+        .parent {
+            display: flex;
+
+        }
+
+        .child {
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+            justify-content: space-between;
+        }
+        .img {
+            width: 15px;
+            height: 15px;
+            margin-top: 25px;
+            margin-left: 95px;
+        }
+        .task-list {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            padding: 10px;
+            margin: 5px;
+        }
+        .task-title {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 5px;
+            padding-left: 10px;
+
+        }
+        .task-subtitle {
+            font-size: 14px;
+            color: grey;
+            padding-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="parent">
+            <div class="child">
+            <h1>Tasks Overview</h1>
+            <span class="span">Pending 10 tasks</span>
+            </div>
+            <div class="img">
+            <img src="icon pojok kanan.jpg">
+            </div>
+        </div>
+        <div class="task-list">
+            <img src="project briefing.png" style="background-color: rgb(205, 248, 205);">
+            <div class="child">
+            <div class="task-title">Project Briefing</div>
+            <div class="task-subtitle">Project Manager</div>
+            </div>
+        </div>
+        <div class="task-list">
+            <img src="concept design.png" style="background-color: rgb(255, 251, 213);">
+            <div class="child">
+            <div class="task-title">Concept Design</div>
+            <div class="task-subtitle">Art Director</div>
+            </div>
+        </div>
+        <div class="task-list">
+            <img src="functional logics.png" style="background-color: rgb(216, 226, 255);">
+            <div class="child">
+            <div class="task-title">Functional Logics</div>
+            <div class="task-subtitle">Lead Developer</div>
+            </div>
+        </div>
+        <div class="task-list">
+            <img src="development.png" style="background-color: rgb(248, 205, 205);">
+            <div class="child">
+            <div class="task-title">Development </div>
+            <div class="task-subtitle">DevOps</div>
+            </div>
+        </div>
+        <div class="task-list">
+            <img src="testing.png" style="background-color: rgb(255, 230, 254);">
+            <div class="child">
+            <div class="task-title">Testing</div>
+            <div class="task-subtitle">QA Managers</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
