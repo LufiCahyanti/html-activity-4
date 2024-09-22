@@ -7,18 +7,91 @@
     <style>
         * {
             margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
         }
         .container {
-            width: 100%;
-            background-color: rgb(247, 247, 252);
+            width: 900px;
+            box-shadow: 0 2px 6px rgb(49, 48, 48);
+            background-color: white;
+            margin: 50px auto;
+            border-radius: 8px;
         }
         .header {
-            background-color: blueviolet;
             flex-direction: column;
+            margin-left: 46%;
         }
         .header img {
             border-radius: 50%;
             width: 90px;
+            margin-top: 20px;
+            border: 3px solid green;
+        }
+        .nama-profil {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 8px;
+            margin-left: 50px;
+            margin-bottom: 10px;
+        }
+        .inpo-profil {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: baseline;
+            gap: 10px;
+            font-size: 13px;
+            color: rgb(99, 98, 98);
+
+        }
+        span img {
+            width: 15px;
+            margin-bottom: -3px;
+            padding: 0 5px;
+        }
+        .bagian-akhir {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 30px;
+            padding: 0 20px;
+            border-bottom: 1px solid #eaeaea;
+            color: rgb(78, 76, 76);
+            gap: 30px;
+        }
+        .bagian-akhir img {
+            width: 10px;
+            margin-left: -25px;
+        }
+        .box {
+            display: flex;
+            flex-direction: row;
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        .box button {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            border: 0;
+            background-color: rgb(34, 34, 243);
+            color: white;
+            border-radius: 3px;
+            width: 85px;
+            height: 35px;
+            margin-top: 6px;
+        }
+        .box img {
+            width: 15px;
+            margin: 3px;
+        }
+        .box-icon {
+            display: flex;
+            border: 2px solid rgb(207, 204, 204);
+            padding: 5px;
+            border-radius: 5px;
+            margin: 5px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -26,7 +99,36 @@
     <div class="container">
         <div class="header">
             <img src="gambarperempuan.jpg">
+        </div>
+        <div class="nama-profil">
             <p><b>Jenny Klabber</b></p>
+            <img src="centang.png">
+        </div>
+        <div class="inpo-profil">
+                <span><img src="icon listrik.png">KeenThemes</span> 
+                <span><img src="lokasi.png">SF, Bay Area</span> 
+                <span><img src="icon-imail.png">jenny@kteam.com</span>
+        </div>
+        <div class="bagian-akhir">
+            <span>Profiles</span>
+            <img src="incon-v.png">
+            <span>Projects</span>
+            <img src="incon-v.png">
+            <span><font color="blue">Works</font><hr style="width: 45px; margin-top: 7px; border: 1px solid blue;"></span>
+            <span>Teams</span>
+            <span>Network</span>
+            <span>Activity</span>
+            <span>More</span>
+            <img src="incon-v.png">
+            <div class="box">
+                <button><img src="person.png">Connect</button>
+            <div class="box-icon">
+                <img src="icon-park-outline--comment.png">               
+            </div>
+            <div class="box-icon">
+                <img src="titik tiga.png">  
+            </div>
+            </div>
         </div>
     </div>
 </body>
